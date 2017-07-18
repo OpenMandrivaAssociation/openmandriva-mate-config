@@ -8,7 +8,9 @@ Url:		https://abf.io/openmandriva/
 Source0:	https://abf.io/openmandriva/mate-openmandriva.gschema.override
 Source1:	https://abf.io/openmandriva/openmandriva.layout
 BuildArch:	noarch
+
 Requires:	glib2.0-common
+Requires:	distro-theme-OpenMandriva
 
 %description
 This package contains distro specific configuration and gschema 

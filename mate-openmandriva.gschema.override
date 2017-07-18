@@ -11,7 +11,7 @@ custom-icon='/usr/share/icons/openmandriva.svg'
 
 [org.mate.interface]
 gtk-theme='BlueMenta'
-icon-theme='Fog'
+icon-theme='Mate'
 
 [org.mate.Marco.general]
 theme='BlueMenta'
