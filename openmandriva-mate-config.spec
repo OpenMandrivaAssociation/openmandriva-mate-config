@@ -41,6 +41,5 @@ install -pm 0644 %{SOURCE0} %{buildroot}%{_datadir}/glib-2.0/schemas/
 
 # mate panel layout
 install -dm 0755 %{buildroot}%{_datadir}/mate-panel/layouts/
-install -pm '644 %{SOURCE1} %{buildroot}%{_datadir}/mate-panel/layouts/
-
+install -pm 0644 %{SOURCE1} %{buildroot}%{_datadir}/mate-panel/layouts/
 
