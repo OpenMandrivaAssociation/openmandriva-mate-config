@@ -13,10 +13,10 @@ Requires:	glib2.0-common
 Requires:	distro-theme-OpenMandriva
 
 %description
-This package contains distro specific configuration and gschema 
+This package contains distro specific configuration and gschema
 overrides for the MATE desktop.
 
-%files 
+%files
 %{_datadir}/glib-2.0/schemas/mate-openmandriva.gschema.override
 %{_datadir}/mate-panel/layouts/openmandriva.layout
 
@@ -42,4 +42,3 @@ install -pm 0644 %{SOURCE0} %{buildroot}%{_datadir}/glib-2.0/schemas/
 # mate panel layout
 install -dm 0755 %{buildroot}%{_datadir}/mate-panel/layouts/
 install -pm 0644 %{SOURCE1} %{buildroot}%{_datadir}/mate-panel/layouts/
-
