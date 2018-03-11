@@ -1,7 +1,7 @@
 Summary:	Package containing distro specific configuration and gschema overrides
 Name:		openmandriva-mate-config
-Version:	1.18.0
-Release:	2
+Version:	1.20.0
+Release:	1
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
 Url:		https://abf.io/openmandriva/
