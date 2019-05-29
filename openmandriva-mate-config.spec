@@ -11,6 +11,7 @@ BuildArch:	noarch
 
 Requires:	glib2.0-common
 Requires:	distro-theme-OpenMandriva
+Requires:	mate-themes
 
 %description
 This package contains distro specific configuration and gschema
