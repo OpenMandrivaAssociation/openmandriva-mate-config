@@ -14,7 +14,7 @@ num-rows=2
 
 [org.mate.interface]
 gtk-theme='BlueMenta'
-icon-theme='Mate'
+icon-theme='mate'
 
 [org.mate.Marco.general]
 theme='BlueMenta'

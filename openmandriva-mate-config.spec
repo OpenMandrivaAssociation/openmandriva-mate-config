@@ -1,7 +1,7 @@
 Summary:	Package containing distro specific configuration and gschema overrides
 Name:		openmandriva-mate-config
-Version:	1.20.0
-Release:	2
+Version:	1.26
+Release:	1
 License:	GPLv2+ and LGPLv2+
 Group:		Graphical desktop/GNOME
 Url:		https://abf.io/openmandriva/
@@ -43,3 +43,4 @@ install -pm 0644 %{SOURCE0} %{buildroot}%{_datadir}/glib-2.0/schemas/
 # mate panel layout
 install -dm 0755 %{buildroot}%{_datadir}/mate-panel/layouts/
 install -pm 0644 %{SOURCE1} %{buildroot}%{_datadir}/mate-panel/layouts/
+
