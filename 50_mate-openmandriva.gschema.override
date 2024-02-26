@@ -24,3 +24,6 @@ use-theme-colors=false
 background-color='#FFFFDD'
 foreground-color='#000000'
 
+[org.mate.screensaver]
+picture-filename='/usr/share/mdk/backgrounds/default.png'
+
